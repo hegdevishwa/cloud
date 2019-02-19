@@ -5,7 +5,7 @@
 yum update -y
 yum install httpd -y
 cd /var/www/html
-echo "Web Server 1 - Ireland" > index.html
+echo "Hello from Web Server" > index.html
 service httpd start
 chkconfig httpd on
 ````
